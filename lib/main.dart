@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   late Timer _timer;
   int _styleIndex = 0;
 
-  List<String> _styleFormats = [
+  final List<String> _styleFormats = [
     'MMMM d, y - h:mm:ss a', // Month, day, year - hour:minute:second am/pm
     'EEEE, MMMM d, y - H:mm:ss', // Day of week, month, day, year - 24-hour hour:minute:second
     'y-MM-dd HH:mm:ss', // Year-month-day - 24-hour hour:minute:second
